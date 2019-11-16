@@ -9,6 +9,7 @@
    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
+   <!--=======TOP ======= -->
    <div id="top">
       <!-- top Starts -->
       <div class="container">
@@ -47,8 +48,8 @@
          <!-- col-md-6 Ends -->
       </div>
       <!-- container Ends -->
-   </div>
-   <!-- top Ends -->
+   </div><!-- top ends -->
+   <!--======= NAVBAR ======= -->
    <div class="navbar navbar-default" id="navbar">
       <!-- navbar navbar-default Starts -->
       <div class="container" >
@@ -140,8 +141,55 @@
          <!-- navbar-collapse collapse Ends -->
       </div>
       <!-- container Ends -->
-   </div>
-   <!-- navbar navbar-default Ends -->
+   </div><!-- navbar ends -->
+   <!--======= SLIDER ======= -->
+   <div class="container" id="slider">
+      <!-- container Starts -->
+      <div class="col-md-12">
+         <!-- col-md-12 Starts -->
+         <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- carousel slide Starts --->
+            <ol class="carousel-indicators">
+               <!-- carousel-indicators Starts -->
+               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+               <li data-target="#myCarousel" data-slide-to="1"></li>
+               <li data-target="#myCarousel" data-slide-to="2"></li>
+               <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+            <!-- carousel-indicators Ends -->
+            <div class="carousel-inner">
+               <!-- carousel-inner Starts -->
+               <div class='item active'>
+                  <a href='http://localhost/Ecom_store/shop.php'><img src='admin_area/slides_images/1.jpg'></a>
+               </div>
+               <div class='item'>
+                  <a href='htttp://www.computerfever.com/services'><img src='admin_area/slides_images/2.jpg'></a>
+               </div>
+               <div class='item'>
+                  <a href='http://urdustories.computerfever.com'><img src='admin_area/slides_images/3.jpg'></a>
+               </div>
+               <div class='item'>
+                  <a href='http://www.computerfever.com'><img src='admin_area/slides_images/slide-5.jpg'></a>
+               </div>
+            </div>
+            <!-- carousel-inner Ends -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+               <!-- left carousel-control Starts -->
+               <span class="glyphicon glyphicon-chevron-left"> </span>
+               <span class="sr-only"> Previous </span>
+            </a>
+            <!-- left carousel-control Ends -->
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+               <!-- right carousel-control Starts -->
+               <span class="glyphicon glyphicon-chevron-right"> </span>
+               <span class="sr-only"> Next </span>
+            </a>
+            <!-- right carousel-control Ends -->
+         </div>
+         <!-- carousel slide Ends --->
+      </div>
+      <!-- col-md-12 Ends -->
+   </div><!-- slider ends -->
 
    <script src="js/jquery.min.js"> </script>
    <script src="js/bootstrap.min.js"></script>
